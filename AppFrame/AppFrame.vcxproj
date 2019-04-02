@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{853CF64A-F1B7-4B24-8223-EF584142985D}</ProjectGuid>
+    <RootNamespace>AppFrame</RootNamespace>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)..\bin</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;$(OPENGL_DIR)\include;$(OPENCV_DIR)\include;$(OPENSG_DIR)\include;$(LINEARSYS_DIR)\Include;$(LINEARSYS_DIR)\Taucs_vc8\src;D:\Working Projects\SDKs\LinearSystem\Include;$(ANN_DIR)\include;$(HKMEDIA_DIR)\include;$(HKCV_DIR);$(HKGL_DIR);$(HKUTILS_DIR);$(GSL_DIR);D:\Working Projects\SDKs\GnuWin32\include;flowabs\include;Json\include;ZXing\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;MY_SOLUTIONDIR=$(SolutionDir);_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_USE_MATH_DEFINES</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>LibJson_d.lib;gsl.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPENGL_DIR)\lib;$(OPENCV_DIR)\lib;C:\SDKs\VisionLIB\OpenCV\2.4.1\build(lite)\lib;$(ANN_DIR)\lib;$(HKMEDIA_DIR)\lib;Json\lib;ZXing\lib;$(LINEARSYS_DIR)\lib;$(LINEARSYS_DIR)\Taucs_vc8\lib;$(GSL_DIR)\lib;D:\Working Projects\SDKs\LinearSystem\lib;D:\Working Projects\SDKs\GnuWin32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>opencv_core241d.lib;opencv_imgproc241d.lib;opencv_highgui241d.lib;opencv_video241d.lib;opencv_features2d241d.lib;opencv_objdetect241d.lib;opencv_ml241d.lib;opencv_calib3d241d.lib;opencv_contrib241d.lib;opencv_legacy241d.lib;opencv_flann241d.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(OPENGL_DIR)\include;$(OPENCV_DIR)\include;$(OPENSG_DIR)\include;$(OPENMESH_DIR)\OpenMesh\src;$(ANN_DIR)\include;$(HKMEDIA_DIR)\include;$(HKCV_DIR);$(HKGL_DIR);$(HKUTILS_DIR);$(CMMCV_DIR);$(BOOST_DIR)\;GCO;flowabs\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;MY_SOLUTIONDIR=$(SolutionDir);_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_USE_MATH_DEFINES</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPENGL_DIR)\lib;$(OPENCV_DIR)\lib;$(OPENMESH_DIR)\lib;$(ANN_DIR)\lib;$(HKMEDIA_DIR)\lib;$(HKCV_DIR)\Halftoning\SAEDLIB\lib;flowabs\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;$(OPENGL_DIR)\include;$(OPENCV_DIR)\include;$(OPENSG_DIR)\include;$(GSL_DIR);D:\Working Projects\SDKs\GnuWin32\include;$(ANN_DIR)\include;$(LINEARSYS_DIR)\include;$(LINEARSYS_DIR)\Taucs_vc8\src;D:\Working Projects\SDKs\LinearSystem\Include;$(HKMEDIA_DIR)\include;$(HKCV_DIR);$(HKGL_DIR);$(HKUTILS_DIR);flowabs\include;Json\include;ZXing\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;MY_SOLUTIONDIR=$(SolutionDir);NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_USE_MATH_DEFINES</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>LibJson.lib;gsl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPENGL_DIR)\lib;$(OPENCV_DIR)\lib;$(ANN_DIR)\lib;$(HKMEDIA_DIR)\lib;Json\lib;ZXing\lib;D:\Working Projects\SDKs\GnuWin32\lib;C:\clibrary\NumericLIB\GnuWin32\lib;D:\Working Projects\SDKs\LinearSystem\lib;$(LINEARSYS_DIR)\lib;$(LINEARSYS_DIR)\Taucs_vc8\lib;$(GSL_DIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>?mainCRTStartupStrArray@@$$FYMHP$01AP$AAVString@System@@@Z</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <NoEntryPoint>false</NoEntryPoint>
+      <IgnoreSpecificDefaultLibraries>opencv_core241.lib;opencv_imgproc241.lib;opencv_highgui241.lib;opencv_video241.lib;opencv_features2d241.lib;opencv_objdetect241.lib;opencv_ml241.lib;opencv_calib3d241.lib;opencv_contrib241.lib;opencv_legacy241.lib;opencv_flann241.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OPENGL_DIR)\include;$(OPENCV_DIR)\include;$(OPENSG_DIR)\include;$(OPENMESH_DIR)\OpenMesh\src;$(ANN_DIR)\include;$(HKMEDIA_DIR)\include;$(HKCV_DIR);$(HKGL_DIR);$(HKUTILS_DIR);$(CMMCV_DIR);$(BOOST_DIR)\;GCO;flowabs\include;$(CudaToolkitIncludeDir);C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\common\inc;$(DXSDK_DIR)\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;MY_SOLUTIONDIR=$(SolutionDir);NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_USE_MATH_DEFINES</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>cudart.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OPENGL_DIR)\lib;$(OPENCV_DIR)\lib;$(OPENMESH_DIR)\lib;$(ANN_DIR)\lib;$(HKMEDIA_DIR)\lib;$(HKCV_DIR)\Halftoning\SAEDLIB\lib;flowabs\lib;$(CUDA_PATH_V5_5)\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <CudaCompile>
+      <TargetMachinePlatform>32</TargetMachinePlatform>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="*DevComponents.DotNetBar2, Version=9.5.0.17, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04" />
+    <Reference Include="*System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="*System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="*System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="DevComponents.DotNetBar2, Version=10.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b">
+      <HintPath>..\..\dll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="HKOGLPanel, Version=1.0.4870.36263, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\dll\HKOGLPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Design">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="Microsoft.VisualC">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppAlgoBinarization.cpp" />
+    <ClCompile Include="AppAlgoMGFontWeightAdjustment.cpp" />
+    <ClCompile Include="AppAlgoTextBigScale.cpp" />
+    <ClCompile Include="AppAlgoMGLetterWarping.cpp" />
+    <ClCompile Include="AppAlgoMGWarpingOptimization.cpp" />
+    <ClCompile Include="AppAlgoColorMapping.cpp" />
+    <ClCompile Include="AppAlgoProbabilityModel.cpp" />
+    <ClCompile Include="AppAlgoEncodingOptimization.cpp" />
+    <ClCompile Include="AppAlgoRegionSeg.cpp" />
+    <ClCompile Include="AppAlgoQRCodeRenderer.cpp" />
+    <ClCompile Include="AppAlgoModuleSelection.cpp" />
+    <ClCompile Include="AppAlgoETF.cpp" />
+    <ClCompile Include="AppAlgoTextOrderOri.cpp" />
+    <ClCompile Include="AppAlgoQRCodeBGColor.cpp" />
+    <ClCompile Include="AppAlgoQRCodeSegmentation.cpp" />
+    <ClCompile Include="AppAlgoModuleBlending.cpp" />
+    <ClCompile Include="AppAlgoQRCodeEvaluation.cpp" />
+    <ClCompile Include="AppAlgoProbabilityModule.cpp" />
+    <ClCompile Include="AppAlgoQRCodeTest.cpp" />
+    <ClCompile Include="AppAlgoEncodingRSModify.cpp" />
+    <ClCompile Include="AppAlgoTextWarping.cpp" />
+    <ClCompile Include="AppAlgoMGStreamlineWarping.cpp" />
+    <ClCompile Include="AppAlgoTextDelete.cpp" />
+    <ClCompile Include="AppAlgoEnergyTextSpace.cpp" />
+    <ClCompile Include="AppAlgoTextGeneration.cpp" />
+    <ClCompile Include="AppAlgoStreamlineTrace.cpp" />
+    <ClCompile Include="AppAlgoTextColor.cpp" />
+    <ClCompile Include="AppAlgoTextAlign.cpp" />
+    <ClCompile Include="AppAlgoTextTyping.cpp" />
+    <ClCompile Include="AppAlgoEnergyVisual.cpp" />
+    <ClCompile Include="AppAlgoZBar.cpp" />
+    <ClCompile Include="AppAlgoZXing.cpp" />
+    <ClCompile Include="AppConfigFile.cpp" />
+    <ClCompile Include="AppConfigSection.cpp" />
+    <ClCompile Include="$(HKCV_DIR)\SSIM\NFSSIM.cpp" />
+    <ClCompile Include="AppAlgoQRC.cpp" />
+    <ClCompile Include="EdgeLinking\HKEdgeLinking.cpp" />
+    <ClCompile Include="Form_MQRC.cpp" />
+    <ClCompile Include="YJPSNRSSIM.cpp" />
+    <ClCompile Include="GraphCut\GCoptimization.cpp" />
+    <ClCompile Include="GraphCut\graph.cpp" />
+    <ClCompile Include="GraphCut\LinkedBlockList.cpp" />
+    <ClCompile Include="GraphCut\maxflow.cpp" />
+    <ClCompile Include="QREncode\bitstream.cpp" />
+    <ClCompile Include="QREncode\mask.cpp" />
+    <ClCompile Include="QREncode\mmask.cpp" />
+    <ClCompile Include="QREncode\mqrspec.cpp" />
+    <ClCompile Include="QREncode\qrBitData.cpp" />
+    <ClCompile Include="QREncode\qrencode.cpp" />
+    <ClCompile Include="QREncode\qrFlag.cpp" />
+    <ClCompile Include="QREncode\qrinput.cpp" />
+    <ClCompile Include="QREncode\qrspec.cpp" />
+    <ClCompile Include="QREncode\rscode.cpp" />
+    <ClCompile Include="QREncode\split.cpp" />
+    <ClCompile Include="QRWordArt\HSplinePath.cpp" />
+    <ClCompile Include="QRWordArt\HSSGLFrameBufferObject.cpp" />
+    <ClCompile Include="QRWordArt\HSSVec2.cpp" />
+    <ClCompile Include="QRWordArt\JsonApp.cpp" />
+    <ClCompile Include="QRWordArt\QRCharacter.cpp" />
+    <ClCompile Include="QRWordArt\QRCharacterIO.cpp" />
+    <ClCompile Include="QRWordArt\QRCharFBO.cpp" />
+    <ClCompile Include="QRWordArt\QRNode.cpp" />
+    <ClCompile Include="QRWordArt\QRPattern.cpp" />
+    <ClCompile Include="QRWordArt\QRPatternFBO.cpp" />
+    <ClCompile Include="QRWordArt\QRSkeleton.cpp" />
+    <ClCompile Include="QRWordArt\QRSplineFBO.cpp" />
+    <ClCompile Include="QRWordArt\QRStringLine.cpp" />
+    <ClCompile Include="AppGrabCut.cpp" />
+    <ClCompile Include="AppIOManager.cpp" />
+    <ClCompile Include="AppIOManagerDefault.cpp" />
+    <ClCompile Include="AppItem.cpp" />
+    <ClCompile Include="AppLayerManagerDefault.cpp" />
+    <ClCompile Include="AppMediaItem.cpp" />
+    <ClCompile Include="AppMediaPlayer.cpp" />
+    <ClCompile Include="AppPainter.cpp" />
+    <ClCompile Include="AppRenderDefault.cpp" />
+    <ClCompile Include="AppState.cpp" />
+    <ClCompile Include="AppStateGrabCut.cpp" />
+    <ClCompile Include="AppStateIdle.cpp" />
+    <ClCompile Include="AppStatePaint.cpp" />
+    <ClCompile Include="AppStateXForm.cpp" />
+    <ClCompile Include="AppStrokeBrush.cpp" />
+    <ClCompile Include="AppStrokeErase.cpp" />
+    <ClCompile Include="AppToolManager.cpp" />
+    <ClCompile Include="AppToolManagerDefault.cpp" />
+    <ClCompile Include="AppXForm.cpp" />
+    <ClCompile Include="$(HKCV_DIR)\GrabCut\HKGrabCut.cpp" />
+    <ClCompile Include="$(HKCV_DIR)\HKCV.cpp" />
+    <ClCompile Include="$(HKUTILS_DIR)\HKColorTable.cpp" />
+    <ClCompile Include="$(HKUTILS_DIR)\HKOGLProjector.cpp" />
+    <ClCompile Include="$(HKUTILS_DIR)\HKTimer.cpp" />
+    <ClCompile Include="AppUtils.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="AppFrame.cpp" />
+    <ClCompile Include="Form_Algorithm.cpp" />
+    <ClCompile Include="Form_Ctrl.cpp" />
+    <ClCompile Include="Form_Event.cpp" />
+    <ClCompile Include="Form_GLPanel.cpp" />
+    <ClCompile Include="Form_Item.cpp" />
+    <ClCompile Include="Form_QRCode.cpp" />
+    <ClCompile Include="Form_Tool.cpp" />
+    <ClCompile Include="Form_WordArt.cpp" />
+    <ClCompile Include="QRWordArt\QRWordArtIO.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="AppGlobal.cpp" />
+    <ClCompile Include="Temporary\temporary.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ZXing\ImageSource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\SDKs\HKLIB\HKCV\HKCV_OpenCVTutor.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="AppAlgoBinarization.h" />
+    <ClInclude Include="AppAlgoMGFontWeightAdjustment.h" />
+    <ClInclude Include="AppAlgoTextBigScale.h" />
+    <ClInclude Include="AppAlgoMGLetterWarping.h" />
+    <ClInclude Include="AppAlgoMGWarpingOptimization.h" />
+    <ClInclude Include="AppAlgoMGWarpingOperator.h" />
+    <ClInclude Include="AppAlgoColorMapping.h" />
+    <ClInclude Include="AppAlgoProbabilityModel.h" />
+    <ClInclude Include="AppAlgoEncodingOptimization.h" />
+    <ClInclude Include="AppAlgoRegionSeg.h" />
+    <ClInclude Include="AppAlgoQRCodeRenderer.h" />
+    <ClInclude Include="AppAlgoModuleSelection.h" />
+    <ClInclude Include="AppAlgoETF.h" />
+    <ClInclude Include="AppAlgoTextOrderOri.h" />
+    <ClInclude Include="AppAlgoQRCodeBGColor.h" />
+    <ClInclude Include="AppAlgoQRCodeSegmentation.h" />
+    <ClInclude Include="AppAlgoModuleBlending.h" />
+    <ClInclude Include="AppAlgoQRCodeEvaluation.h" />
+    <ClInclude Include="AppAlgoProbabilityModule.h" />
+    <ClInclude Include="AppAlgoQRCodeTest.h" />
+    <ClInclude Include="AppAlgoEncodingRSModify.h" />
+    <ClInclude Include="AppAlgoTextWarping.h" />
+    <ClInclude Include="AppAlgoMGStreamlineWarping.h" />
+    <ClInclude Include="AppAlgoTextDelete.h" />
+    <ClInclude Include="AppAlgoEnergyTextSpace.h" />
+    <ClInclude Include="AppAlgoTextGeneration.h" />
+    <ClInclude Include="AppAlgoQRC.h" />
+    <ClInclude Include="AppAlgorithm.h" />
+    <ClInclude Include="AppAlgoStreamlineTrace.h" />
+    <ClInclude Include="AppAlgoTextColor.h" />
+    <ClInclude Include="AppAlgoTextAlign.h" />
+    <ClInclude Include="AppAlgoTextTyping.h" />
+    <ClInclude Include="AppAlgoEnergyVisual.h" />
+    <ClInclude Include="AppAlgoZBar.h" />
+    <ClInclude Include="AppAlgoZXing.h" />
+    <ClInclude Include="AppConfigFile.h" />
+    <ClInclude Include="AppData.h" />
+    <ClInclude Include="AppQRCData.h" />
+    <ClInclude Include="AppWordArtData.h" />
+    <ClInclude Include="YJPSNRSSIM.h" />
+    <ClInclude Include="GraphCut\block.h" />
+    <ClInclude Include="GraphCut\energy.h" />
+    <ClInclude Include="GraphCut\GCoptimization.h" />
+    <ClInclude Include="GraphCut\graph.h" />
+    <ClInclude Include="GraphCut\LinkedBlockList.h" />
+    <ClInclude Include="QREncode\bitstream.h" />
+    <ClInclude Include="QREncode\config.h" />
+    <ClInclude Include="QREncode\mask.h" />
+    <ClInclude Include="QREncode\mmask.h" />
+    <ClInclude Include="QREncode\mqrspec.h" />
+    <ClInclude Include="QREncode\qrBitData.h" />
+    <ClInclude Include="QREncode\qrencode.h" />
+    <ClInclude Include="QREncode\qrencode_inner.h" />
+    <ClInclude Include="QREncode\qrFlag.h" />
+    <ClInclude Include="QREncode\qrinput.h" />
+    <ClInclude Include="QREncode\qrspec.h" />
+    <ClInclude Include="QREncode\rscode.h" />
+    <ClInclude Include="QREncode\split.h" />
+    <ClInclude Include="QRWordArt\HSplineCore.h" />
+    <ClInclude Include="QRWordArt\HSplinePath.h" />
+    <ClInclude Include="QRWordArt\HSSGLFrameBufferObject.h" />
+    <ClInclude Include="QRWordArt\HSSSplineSample.h" />
+    <ClInclude Include="QRWordArt\HSSVec2.h" />
+    <ClInclude Include="QRWordArt\JsonApp.h" />
+    <ClInclude Include="QRWordArt\QRCharacter.h" />
+    <ClInclude Include="QRWordArt\QRCharacterIO.h" />
+    <ClInclude Include="QRWordArt\QRCharFBO.h" />
+    <ClInclude Include="QRWordArt\QRNode.h" />
+    <ClInclude Include="QRWordArt\QRPattern.h" />
+    <ClInclude Include="QRWordArt\QRPatternFBO.h" />
+    <ClInclude Include="QRWordArt\QRSkeleton.h" />
+    <ClInclude Include="QRWordArt\QRSplineFBO.h" />
+    <ClInclude Include="QRWordArt\QRStringLine.h" />
+    <ClInclude Include="AppGrabCut.h" />
+    <ClInclude Include="AppIOManager.h" />
+    <ClInclude Include="AppItem.h" />
+    <ClInclude Include="AppLayerManager.h" />
+    <ClInclude Include="AppMediaItem.h" />
+    <ClInclude Include="AppMediaPlayer.h" />
+    <ClInclude Include="AppPainter.h" />
+    <ClInclude Include="AppParameter.h" />
+    <ClInclude Include="AppRender.h" />
+    <ClInclude Include="AppState.h" />
+    <ClInclude Include="AppStroke.h" />
+    <ClInclude Include="AppTool.h" />
+    <ClInclude Include="AppToolManager.h" />
+    <ClInclude Include="AppUtils.h" />
+    <ClInclude Include="AppXForm.h" />
+    <ClInclude Include="Form1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRWordArtIO.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="AppDeclare.h" />
+    <ClInclude Include="AppGlobal.h" />
+    <ClInclude Include="AppProperty.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\icon\canvas_50.png" />
+    <None Include="..\..\icon\pause.png" />
+    <None Include="..\..\icon\photo_50.png" />
+    <None Include="..\..\icon\QRCode_50.png" />
+    <None Include="..\..\icon\video2_50.png" />
+    <None Include="app.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppRes.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resX">
+      <DependentUpon>Form1.h</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

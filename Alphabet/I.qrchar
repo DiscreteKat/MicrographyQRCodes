@@ -1,0 +1,131 @@
+{
+   "advance" : 0.4580650,
+   "bear_x" : 0.1161290,
+   "char" : "I",
+   "extra" : [],
+   "lines" : [
+      {
+         "collinear" : false,
+         "fix" : false,
+         "h1" : 0.125,
+         "h2" : 0.125,
+         "node index" : [ 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1 ],
+         "w" : 0.10
+      }
+   ],
+   "nodes" : [
+      {
+         "fix" : true,
+         "hori" : 0.0,
+         "main" : true,
+         "vert" : 1.0,
+         "w" : 0.1000000014901161
+      },
+      {
+         "fix" : true,
+         "hori" : 0.0,
+         "main" : true,
+         "vert" : -1.0,
+         "w" : 0.1000000014901161
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : 0.8665999999999984,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : 0.7331999999999969,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : 0.5998000000000116,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : 0.4664000000000263,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : 0.3330000000000412,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : 0.1996000000000558,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : 0.06620000000007054,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : -0.06719999999991481,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : -0.2005999999999002,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : -0.3339999999998855,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : -0.4673999999998707,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : -0.6007999999998562,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : -0.7341999999998415,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : false,
+         "vert" : -0.8675999999998271,
+         "w" : 1.0
+      }
+   ],
+   "width" : 0.238710
+}

@@ -1,0 +1,37 @@
+{
+   "advance" : Total width (from truetype),
+   "bear_x"  : Padding of alignment(from truetype),
+   "width"   : Letter width (from truetype),
+   "char"    : Letter,
+   
+   -Nodes-
+   "nodes" : [
+      {
+         "fix"  : Fix on Capline/Baseline (true/false),
+		 "main" : Junction node (true/false),
+         "hori" : Coordinate X(x_i),
+         "vert" : coordinate Y(y_i),
+         "w"    : Weight(w_s)
+      }
+   ]
+  
+   -Skeleton-
+   "lines" : [ 
+      {
+         "collinear"  : Collinear (true/false),
+         "fix"        : Fix on Capline/Baseline (true/false),
+         "h1"         : top of stroke,
+         "h2"         : bottom of stroke,
+		 "w"          : width of stroke,
+         "node index" : [indeics of nodes],
+      }
+   ],
+   
+   -Constraint-
+   "extra"   : [
+      {
+			"w" : weight,
+			"node index" : [indeics of nodes]
+	   }
+   ],
+}

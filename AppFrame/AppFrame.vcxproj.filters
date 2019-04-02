@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Form1">
+      <UniqueIdentifier>{c66c9a00-142d-4790-b34e-2e581db479c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Temporary">
+      <UniqueIdentifier>{400a3ab2-c8fc-4861-97fb-ec66d5872909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{12a39f82-8c83-4823-ab11-65a3da34a278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Algorithm">
+      <UniqueIdentifier>{9b153eff-e093-40b0-a9dd-fcc2112d9a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Data">
+      <UniqueIdentifier>{93aebb69-a928-46ff-ab41-3ad40d9c2704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{73f538d9-c225-4b03-9510-2a67ca5ffbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Algorithm">
+      <UniqueIdentifier>{660f789d-1117-4740-b077-3900215a8aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Utils">
+      <UniqueIdentifier>{d50295d3-145d-4223-806a-2e5369be2e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Utils">
+      <UniqueIdentifier>{9a94587c-3daa-4930-b08d-a1a6b82279dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application">
+      <UniqueIdentifier>{5aace788-5a28-44b0-8ee1-9c12bcc041a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Manager">
+      <UniqueIdentifier>{24944e5c-f1ba-45a7-98f5-f4e803983a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\State Machine">
+      <UniqueIdentifier>{45960acb-0bb7-456e-a429-7fd4549e88f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Render">
+      <UniqueIdentifier>{f6b91b88-dd54-41d8-ae88-88ec30244253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Item">
+      <UniqueIdentifier>{70564667-c82d-47d8-a632-21d3774cfbc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Tool">
+      <UniqueIdentifier>{28f4dc27-69c0-4146-9d5d-5d16cbc6a9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application">
+      <UniqueIdentifier>{8dfcb5c8-88a3-4a70-b5ed-f4559d7341f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Manager">
+      <UniqueIdentifier>{cec431e2-9e67-4d90-bef9-3981d6001908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Manager\IO">
+      <UniqueIdentifier>{5a4fef08-995d-4a6b-a792-b7e8b8f0cfa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Manager\Layer">
+      <UniqueIdentifier>{29e2869e-9b75-4b73-837c-69b4e543f5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Manager\Tool">
+      <UniqueIdentifier>{83422fd6-3bda-4708-8426-b506ac281150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Render">
+      <UniqueIdentifier>{111be197-8864-4098-b850-7b2b26c8af62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Tool">
+      <UniqueIdentifier>{aa85def3-2a93-4432-9c0f-b6636412c80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Tool\Media Player">
+      <UniqueIdentifier>{0d367bed-1878-4046-b5ed-2e76ef5a8fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Tool\Painter">
+      <UniqueIdentifier>{a530c0a8-4d18-4963-8285-5bbc1b90e20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Tool\Painter\Stroke">
+      <UniqueIdentifier>{3e957319-c9a1-462a-afd0-c7bb8005d04c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Tool\GrabCut">
+      <UniqueIdentifier>{a6760987-c3b3-453f-8613-52a8d3c7db92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Item">
+      <UniqueIdentifier>{0ebfeba6-f3ff-4613-9f2e-a19e69dcf4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Tool\Painter">
+      <UniqueIdentifier>{4104bb87-09f9-49a7-92f4-eb9b53c50999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Tool\GrabCut">
+      <UniqueIdentifier>{576306bb-1b72-4efa-b0ee-1d736fbc20ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Tool\Media Player">
+      <UniqueIdentifier>{31bd502b-6c03-4a39-aa08-56eebeff6f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\State Machine">
+      <UniqueIdentifier>{43afeb86-6228-46af-b2ea-48a2b890c9be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Tool\XForm">
+      <UniqueIdentifier>{05d45aff-cb23-49ad-9ed3-e6c9d6b47fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Tool\XForm">
+      <UniqueIdentifier>{365c6671-f955-4228-837a-391ec2337640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\IO">
+      <UniqueIdentifier>{09072b6f-e631-4ff8-92c8-544c30c8d986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\IO">
+      <UniqueIdentifier>{34fa6860-5cbd-4e8f-b4de-a16c3126f27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\QRWordArt">
+      <UniqueIdentifier>{022df062-f5aa-4d09-b2aa-857237b17cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\QRWordArt">
+      <UniqueIdentifier>{200880f3-2b46-4795-b4c8-4afe27a44e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\QRencode">
+      <UniqueIdentifier>{f3d50982-b976-4bb0-b8fd-e21335a5b4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\QRencode">
+      <UniqueIdentifier>{5df3ad94-1428-4919-9ac3-de5d39bc1122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\GraphCut">
+      <UniqueIdentifier>{957a514c-9b54-45c2-84f6-3111faabb424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\GraphCut">
+      <UniqueIdentifier>{eb6f18dc-0942-4911-b732-7a5b5b457367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Application\Image Process">
+      <UniqueIdentifier>{d865e025-3705-4287-baeb-81e918364291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Application\Image Process">
+      <UniqueIdentifier>{bc898bca-fdec-4d02-b55b-6b499dea3f16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppGlobal.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Temporary\temporary.cpp">
+      <Filter>Temporary</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Event.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Ctrl.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_GLPanel.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="AppState.cpp">
+      <Filter>Source Files\Core\Application\State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="AppItem.cpp">
+      <Filter>Source Files\Core\Application\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="AppIOManager.cpp">
+      <Filter>Source Files\Core\Application\Manager\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Item.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="AppMediaItem.cpp">
+      <Filter>Source Files\Core\Application\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="AppIOManagerDefault.cpp">
+      <Filter>Source Files\Core\Application\Manager\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="AppLayerManagerDefault.cpp">
+      <Filter>Source Files\Core\Application\Manager\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="AppRenderDefault.cpp">
+      <Filter>Source Files\Core\Application\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="AppToolManagerDefault.cpp">
+      <Filter>Source Files\Core\Application\Manager\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="AppToolManager.cpp">
+      <Filter>Source Files\Core\Application\Manager\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateIdle.cpp">
+      <Filter>Source Files\Core\Application\State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStatePaint.cpp">
+      <Filter>Source Files\Core\Application\State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStrokeBrush.cpp">
+      <Filter>Source Files\Core\Application\Tool\Painter\Stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStrokeErase.cpp">
+      <Filter>Source Files\Core\Application\Tool\Painter\Stroke</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Tool.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateGrabCut.cpp">
+      <Filter>Source Files\Core\Application\State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="AppPainter.cpp">
+      <Filter>Source Files\Core\Application\Tool\Painter</Filter>
+    </ClCompile>
+    <ClCompile Include="AppMediaPlayer.cpp">
+      <Filter>Source Files\Core\Application\Tool\Media Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AppGrabCut.cpp">
+      <Filter>Source Files\Core\Application\Tool\GrabCut</Filter>
+    </ClCompile>
+    <ClCompile Include="AppUtils.cpp">
+      <Filter>Source Files\Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AppXForm.cpp">
+      <Filter>Source Files\Core\Application\Tool\XForm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStateXForm.cpp">
+      <Filter>Source Files\Core\Application\State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoQRC.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_Algorithm.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_QRCode.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConfigFile.cpp">
+      <Filter>Source Files\Core\Application\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConfigSection.cpp">
+      <Filter>Source Files\Core\Application\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoZBar.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextGeneration.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_WordArt.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HKCV_DIR)\SSIM\NFSSIM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HKCV_DIR)\GrabCut\HKGrabCut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HKCV_DIR)\HKCV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HKUTILS_DIR)\HKColorTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HKUTILS_DIR)\HKOGLProjector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(HKUTILS_DIR)\HKTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextAlign.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeLinking\HKEdgeLinking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoQRCodeTest.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextColor.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextTyping.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoZXing.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="ZXing\ImageSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoQRCodeBGColor.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRCharacter.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRNode.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRSkeleton.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\HSplinePath.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRCharacterIO.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\JsonApp.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRStringLine.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRCharFBO.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRSplineFBO.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\HSSGLFrameBufferObject.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRPattern.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRPatternFBO.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\HSSVec2.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QRWordArt\QRWordArtIO.cpp">
+      <Filter>Source Files\Core\Application\QRWordArt</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\split.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\bitstream.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\mask.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\mmask.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\mqrspec.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\qrBitData.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\qrencode.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\qrFlag.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\qrinput.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\qrspec.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="QREncode\rscode.cpp">
+      <Filter>Source Files\Core\Application\QRencode</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextDelete.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCut\LinkedBlockList.cpp">
+      <Filter>Source Files\Core\Application\GraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCut\maxflow.cpp">
+      <Filter>Source Files\Core\Application\GraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCut\GCoptimization.cpp">
+      <Filter>Source Files\Core\Application\GraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphCut\graph.cpp">
+      <Filter>Source Files\Core\Application\GraphCut</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoBinarization.cpp">
+      <Filter>Source Files\Core\Application\Image Process</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoColorMapping.cpp">
+      <Filter>Source Files\Core\Application\Image Process</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoETF.cpp">
+      <Filter>Source Files\Core\Application\Image Process</Filter>
+    </ClCompile>
+    <ClCompile Include="YJPSNRSSIM.cpp">
+      <Filter>Source Files\Core\Application\Image Process</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextOrderOri.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextBigScale.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoTextWarping.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoRegionSeg.cpp">
+      <Filter>Source Files\Core\Application\Image Process</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoStreamlineTrace.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoEncodingOptimization.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoModuleBlending.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoProbabilityModel.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoModuleSelection.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoEnergyVisual.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoQRCodeEvaluation.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoEnergyTextSpace.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoQRCodeSegmentation.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoMGWarpingOptimization.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoMGLetterWarping.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoMGFontWeightAdjustment.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoMGStreamlineWarping.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoEncodingRSModify.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoQRCodeRenderer.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Form_MQRC.cpp">
+      <Filter>Source Files\Form1</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlgoProbabilityModule.cpp">
+      <Filter>Source Files\Core\Algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDeclare.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGlobal.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AppIOManager.h">
+      <Filter>Header Files\Core\Application\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppLayerManager.h">
+      <Filter>Header Files\Core\Application\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppToolManager.h">
+      <Filter>Header Files\Core\Application\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AppTool.h">
+      <Filter>Header Files\Core\Application\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgorithm.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppData.h">
+      <Filter>Header Files\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AppProperty.h">
+      <Filter>Header Files\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AppParameter.h">
+      <Filter>Header Files\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AppUtils.h">
+      <Filter>Header Files\Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AppState.h">
+      <Filter>Header Files\Core\Application\State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="AppRender.h">
+      <Filter>Header Files\Core\Application\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AppItem.h">
+      <Filter>Header Files\Core\Application\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStroke.h">
+      <Filter>Header Files\Core\Application\Tool\Painter</Filter>
+    </ClInclude>
+    <ClInclude Include="AppPainter.h">
+      <Filter>Header Files\Core\Application\Tool\Painter</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGrabCut.h">
+      <Filter>Header Files\Core\Application\Tool\GrabCut</Filter>
+    </ClInclude>
+    <ClInclude Include="AppMediaPlayer.h">
+      <Filter>Header Files\Core\Application\Tool\Media Player</Filter>
+    </ClInclude>
+    <ClInclude Include="AppMediaItem.h">
+      <Filter>Header Files\Core\Application\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="AppXForm.h">
+      <Filter>Header Files\Core\Application\Tool\XForm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoQRC.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfigFile.h">
+      <Filter>Header Files\Core\Application\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoZBar.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextGeneration.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextAlign.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoQRCodeTest.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextColor.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextTyping.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoZXing.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoQRCodeBGColor.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRSkeleton.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRCharacter.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRNode.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\HSplineCore.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\HSplinePath.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\HSSSplineSample.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRCharacterIO.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\JsonApp.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRStringLine.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRCharFBO.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRSplineFBO.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\HSSGLFrameBufferObject.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRPattern.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRPatternFBO.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\HSSVec2.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QRWordArt\QRWordArtIO.h">
+      <Filter>Header Files\Core\Application\QRWordArt</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\config.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\mask.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\mmask.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\mqrspec.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\qrBitData.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\qrencode.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\qrencode_inner.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\qrFlag.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\qrinput.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\qrspec.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\rscode.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\split.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="QREncode\bitstream.h">
+      <Filter>Header Files\Core\Application\QRencode</Filter>
+    </ClInclude>
+    <ClInclude Include="AppQRCData.h">
+      <Filter>Header Files\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextDelete.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWordArtData.h">
+      <Filter>Header Files\Core\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCut\GCoptimization.h">
+      <Filter>Header Files\Core\Application\GraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCut\energy.h">
+      <Filter>Header Files\Core\Application\GraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCut\block.h">
+      <Filter>Header Files\Core\Application\GraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCut\LinkedBlockList.h">
+      <Filter>Header Files\Core\Application\GraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphCut\graph.h">
+      <Filter>Header Files\Core\Application\GraphCut</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoBinarization.h">
+      <Filter>Header Files\Core\Application\Image Process</Filter>
+    </ClInclude>
+    <ClInclude Include="YJPSNRSSIM.h">
+      <Filter>Header Files\Core\Application\Image Process</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoColorMapping.h">
+      <Filter>Header Files\Core\Application\Image Process</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoETF.h">
+      <Filter>Header Files\Core\Application\Image Process</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextOrderOri.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextBigScale.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoTextWarping.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoRegionSeg.h">
+      <Filter>Header Files\Core\Application\Image Process</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoStreamlineTrace.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoEncodingOptimization.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoModuleBlending.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoProbabilityModel.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoModuleSelection.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoEnergyVisual.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoQRCodeEvaluation.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoEnergyTextSpace.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoQRCodeSegmentation.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoMGWarpingOptimization.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoMGLetterWarping.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoMGFontWeightAdjustment.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoMGWarpingOperator.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoMGStreamlineWarping.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoEncodingRSModify.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoQRCodeRenderer.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlgoProbabilityModule.h">
+      <Filter>Header Files\Core\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\SDKs\HKLIB\HKCV\HKCV_OpenCVTutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\icon\canvas_50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\icon\pause.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\icon\photo_50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\icon\QRCode_50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\icon\video2_50.png">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppRes.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

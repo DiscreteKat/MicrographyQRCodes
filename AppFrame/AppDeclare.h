@@ -1,0 +1,101 @@
+/**
+* @file AppDeclare.h
+*
+* Class declarations
+*
+* @author James Hung-Kuo Chu
+*/
+
+#pragma once
+
+/**
+*	@brief AppFrame namespace
+*/
+namespace AppFrame
+{		
+	/////////////////////////////////////////////////
+	/// Application data
+	/////////////////////////////////////////////////
+	/// AppData.h
+	class		HKCModule;
+	class		HKCAppData;
+
+	/// AppItem.h
+	ref class	HKCMediaItem;
+	ref class	HKCAppItem;
+
+	/////////////////////////////////////////////////
+	/// Application algorithm
+	/////////////////////////////////////////////////
+	/// AppAlgorithm.h
+	ref class	HKCAlgorithm;
+
+	/////////////////////////////////////////////////
+	/// Application parameters
+	/////////////////////////////////////////////////
+	ref class   HKCTestParam;
+	ref class	HKCAppParam;
+
+	/////////////////////////////////////////////////
+	/// Application properties
+	/////////////////////////////////////////////////
+	/// AppProperty.h	
+	ref class	HKCPntrProp;
+	ref class	HKCGCProp;
+	ref class	HKCMPlyrProp;
+	ref class	HKCAppProp;	
+
+	/////////////////////////////////////////////////
+	/// Application tools
+	/////////////////////////////////////////////////
+	/// AppStroke.h
+	ref class	HKCStroke;
+	ref class	HKCStrkBrush;
+	ref class	HKCStrkErase;
+
+	/// AppTool.h
+	ref class	HKCAppTool;
+	ref class   HKCPainter;
+	ref class   HKCGrabCutr;	
+	ref class   HKCMPlayer;
+
+	/////////////////////////////////////////////////
+	/// Application tool manager
+	/////////////////////////////////////////////////
+	/// AppToolManager.h
+	ref class	HKCAppToolMgr;
+	ref class	HKCToolMgrDef;
+
+	/////////////////////////////////////////////////
+	/// Application I/O manager
+	/////////////////////////////////////////////////
+	/// AppIOManager.h
+	ref class	HKCAppIOMgr;
+	ref class	HKCIOMgrDef;	
+
+	/////////////////////////////////////////////////
+	/// Application layer manager
+	/////////////////////////////////////////////////
+	/// AppLayerManager.h
+	ref class	HKCAppLayerMgr;
+	ref class	HKCLayerMgrDef;
+
+	/////////////////////////////////////////////////
+	/// Application state machine
+	/////////////////////////////////////////////////
+	/// AppState.h
+	class		HKCAppState;
+	class		HKCStateIdle;
+	class		HKCStatePaint;
+	class		HKCStateGC;
+
+	/////////////////////////////////////////////////
+	/// Application render
+	/////////////////////////////////////////////////
+	/// AppRender.h
+	ref class   HKCAppRender;
+	ref class	HKCRenderDef;
+
+	/// Form1.h
+	ref class	Form1;
+}

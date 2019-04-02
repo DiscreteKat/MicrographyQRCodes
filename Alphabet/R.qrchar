@@ -1,0 +1,387 @@
+{
+   "advance" : 1.193550,
+   "bear_x" : 0.1225810,
+   "char" : "R",
+   "extra" : [],
+   "lines" : [
+      {
+         "collinear" : true,
+         "fix" : false,
+         "h1" : 0.115,
+         "h2" : 0.125,
+         "node index" : [ 0, 11, 12, 13, 14, 15, 16, 1, 17, 18, 19, 20, 21, 22, 2 ],
+         "w" : 0.115
+      },
+      {
+         "collinear" : false,
+         "fix" : true,
+         "h1" : 0.115,
+         "h2" : 0.115,
+         "node index" : [ 0, 23, 24, 25, 26, 27, 3 ],
+         "w" : 0.10
+      },
+      {
+         "collinear" : false,
+         "fix" : false,
+         "h1" : 0.115,
+         "h2" : 0.115,
+         "node index" : [ 1, 28, 8, 29, 30, 4 ],
+         "w" : 0.10
+      },
+      {
+         "collinear" : false,
+         "fix" : false,
+         "h1" : 0.115,
+         "h2" : 0.115,
+         "node index" : [ 3, 31, 32, 5, 33, 34, 6, 35, 36, 7, 37, 38, 4 ],
+         "w" : 0.10
+      },
+      {
+         "collinear" : false,
+         "fix" : false,
+         "h1" : 0.115,
+         "h2" : 0.115,
+         "node index" : [ 8, 39, 40, 41, 9, 42, 43, 44, 45, 46, 47, 10 ],
+         "w" : 0.115
+      }
+   ],
+   "nodes" : [
+      {
+         "fix" : true,
+         "hori" : -0.40,
+         "main" : true,
+         "vert" : 1.0,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : true,
+         "vert" : 0.0,
+         "w" : 0.50
+      },
+      {
+         "fix" : true,
+         "hori" : -0.40,
+         "main" : true,
+         "vert" : -1.0,
+         "w" : 0.50
+      },
+      {
+         "fix" : true,
+         "hori" : 0.0,
+         "main" : true,
+         "vert" : 1.0,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0,
+         "main" : true,
+         "vert" : 0.0,
+         "w" : 0.5
+      },
+      {
+         "fix" : false,
+         "hori" : 0.20,
+         "main" : false,
+         "vert" : 0.90,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.3250,
+         "main" : true,
+         "vert" : 0.50,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : 0.20,
+         "main" : false,
+         "vert" : 0.10,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.240,
+         "main" : true,
+         "vert" : 0.0,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : 0.0450,
+         "main" : false,
+         "vert" : -0.210,
+         "w" : 1.0
+      },
+      {
+         "fix" : true,
+         "hori" : 0.310,
+         "main" : true,
+         "vert" : -1.0,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : 0.8570999999999994,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : 0.7142000000000153,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : 0.5713000000000309,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : 0.4284000000000467,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : 0.2855000000000624,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : 0.1426000000000782,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : -0.1429000000000006,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : -0.2857999999999849,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : -0.4286999999999692,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : -0.5715999999999535,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : -0.7144999999999377,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.40,
+         "main" : false,
+         "vert" : -0.8573999999999220,
+         "w" : 1.0
+      },
+      {
+         "fix" : true,
+         "hori" : -0.3333200000000009,
+         "main" : false,
+         "vert" : 1.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : true,
+         "hori" : -0.2666400000000082,
+         "main" : false,
+         "vert" : 1.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : true,
+         "hori" : -0.1999600000000154,
+         "main" : false,
+         "vert" : 1.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : true,
+         "hori" : -0.1332800000000229,
+         "main" : false,
+         "vert" : 1.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : true,
+         "hori" : -0.06660000000003037,
+         "main" : false,
+         "vert" : 1.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.3199886681600069,
+         "main" : false,
+         "vert" : 0.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.1599790425000056,
+         "main" : false,
+         "vert" : 0.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.07995333245617531,
+         "main" : false,
+         "vert" : 0.0,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.06935717313590999,
+         "main" : false,
+         "vert" : 0.9884806358542011,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.1373254616414135,
+         "main" : false,
+         "vert" : 0.9594046944699325,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.2614893072831967,
+         "main" : false,
+         "vert" : 0.7932930359408078,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.3064081658322228,
+         "main" : false,
+         "vert" : 0.6576089843296005,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.3063874570552022,
+         "main" : false,
+         "vert" : 0.3423011566505844,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.2614560547755521,
+         "main" : false,
+         "vert" : 0.2066317864554214,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.1372857382128643,
+         "main" : false,
+         "vert" : 0.04056949752992745,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.06931670846241142,
+         "main" : false,
+         "vert" : 0.01150912228960288,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.1631852589590437,
+         "main" : false,
+         "vert" : -0.01994250981215875,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.08784464941825187,
+         "main" : false,
+         "vert" : -0.05551483312895221,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.01718405779873933,
+         "main" : false,
+         "vert" : -0.1183276761628573,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.09209790130175936,
+         "main" : false,
+         "vert" : -0.3086408622489583,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.1340027659828396,
+         "main" : false,
+         "vert" : -0.4163472864974803,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.1724330963677555,
+         "main" : false,
+         "vert" : -0.5290477053347857,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.2085656806549866,
+         "main" : false,
+         "vert" : -0.6448202610049557,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.2431734239086677,
+         "main" : false,
+         "vert" : -0.7624382066480756,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.2768396366406042,
+         "main" : false,
+         "vert" : -0.8810880374218010,
+         "w" : 1.0
+      }
+   ],
+   "width" : 1.058060
+}

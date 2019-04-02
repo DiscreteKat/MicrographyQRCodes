@@ -1,0 +1,188 @@
+{
+   "advance" : 0.9161290,
+   "bear_x" : 0.02580650,
+   "char" : "J",
+   "extra" : [],
+   "lines" : [
+      {
+         "collinear" : false,
+         "fix" : false,
+         "h1" : 0.125,
+         "h2" : 0.125,
+         "node index" : [ 0, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1 ],
+         "w" : 0.10
+      },
+      {
+         "collinear" : false,
+         "fix" : false,
+         "h1" : 0.125,
+         "h2" : 0.125,
+         "node index" : [ 1, 17, 2, 18, 19, 3, 20, 21, 4, 22, 5 ],
+         "w" : 0.10
+      }
+   ],
+   "nodes" : [
+      {
+         "fix" : true,
+         "hori" : 0.250,
+         "main" : true,
+         "vert" : 1.0,
+         "w" : 0.1000000014901161
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : true,
+         "vert" : -0.60,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : 0.180,
+         "main" : false,
+         "vert" : -0.850,
+         "w" : 1.0
+      },
+      {
+         "fix" : true,
+         "hori" : 0.0,
+         "main" : true,
+         "vert" : -1.0,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : -0.180,
+         "main" : false,
+         "vert" : -0.850,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.250,
+         "main" : true,
+         "vert" : -0.60,
+         "w" : 0.50
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : 0.8665599999999980,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : 0.7331200000000033,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : 0.5996800000000181,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : 0.4662400000000327,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : 0.3328000000000475,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : 0.1993600000000621,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : 0.06592000000007696,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : -0.06751999999990839,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : -0.2009599999998938,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : -0.3343999999998791,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.250,
+         "main" : false,
+         "vert" : -0.4678399999998644,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.2234858494766426,
+         "main" : false,
+         "vert" : -0.7348204803835323,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.1264409382366565,
+         "main" : false,
+         "vert" : -0.9281215837974314,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : 0.06545906854423152,
+         "main" : false,
+         "vert" : -0.9801871298966216,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.06547897453602369,
+         "main" : false,
+         "vert" : -0.9801753950456522,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.1264582565624907,
+         "main" : false,
+         "vert" : -0.9281019651785821,
+         "w" : 1.0
+      },
+      {
+         "fix" : false,
+         "hori" : -0.2234924024948551,
+         "main" : false,
+         "vert" : -0.7347953642843875,
+         "w" : 1.0
+      }
+   ],
+   "width" : 0.7548390
+}
